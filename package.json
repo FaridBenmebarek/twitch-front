@@ -1,0 +1,16 @@
+{
+  "name": "site-twitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run sass": "sass --watch style.scss style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@splidejs/splide": "^2.4.21",
+    "bootstrap": "^5.0.0-beta2"
+  }
+}

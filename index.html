@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Splide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <script defer src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Twitch</title>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="nav">
+
+        <div class="nav__left">
+            <div class="nav__left--logo">
+                <img src="./assets/twitch-logo.png" alt="logo">
+            </div>
+            <div class="nav__left--menu">
+                <p>Parcourir</p>
+                <p><i class="fas fa-ellipsis-h"></i></p>
+            </div>
+        </div>
+
+        <div class="nav__center">
+            <input type="text" class="nav__center--recherche" placeholder="Rechercher" />
+            <span class="nav__center--logo">
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+        </div>
+
+        <div class="nav__right">
+            <div class="nav__right--block">
+                <div class="nav__right--prime">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="connexion">Se connecter</div>
+                <div class="inscription">S'inscrire</div>
+                <div class="nav__right--logo">
+                    <i class="far fa-user fa-lg"></i>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- NAVBAR -->
+
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <section class="sidebar">
+
+            <div class="sidebar__title">
+                <div class="sidebar__title--text">
+                    chaînes recommandées
+                </div>
+                <div class="sidebar__title--icon">
+                    <i class="fas fa-arrow-left fa-xs"></i>
+                </div>
+            </div>
+
+            <div class="sidebar__list">
+                <ul class="sidebar__list--items">
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar1.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>Domingo</p>
+                                <span>Football Manager</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>6,1 k</p>
+                        </div>
+                    </li>
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar2.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>Ponce</p>
+                                <span>Rocket League</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>10,2 k</p>
+                        </div>
+                    </li>
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar3.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>otplol_</p>
+                                <span>League of Legends</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>2,9 k</p>
+                        </div>
+                    </li>
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar4.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>SolaryFortine</p>
+                                <span>Fornite</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>1,4 k</p>
+                        </div>
+                    </li>
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar5.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>kinstaar</p>
+                                <span>Apex Legends</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>1,1 k</p>
+                        </div>
+                    </li>
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar6.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>SkyrrozTv</p>
+                                <span>Call of Duty: Warz...</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>6,9 k</p>
+                        </div>
+                    </li>
+                    <li class="sidebar__list--item">
+                        <div class="sidebar__list--item-description">
+                            <img src="./assets/avatars/avatar7.jpg" alt="avatar">
+                            <div class="sidebar__list--item-description-text">
+                                <p>Mickalow</p>
+                                <span>Apex Legends</span>
+                            </div>
+                        </div>
+                        <div class="sidebar__list--item-number">
+                            <div><i class="fas fa-circle fa-xs"></i></div>
+                            <p>2,2 k</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar__communaute">
+                <div>Rejoignez la communauté <span>Twitch</span> !</div>
+                <p>Découvrez les meilleurs streams où que vous soyez.</p>
+                <button>S'inscrire</button>
+            </div>
+
+        </section>
+        <!-- SIDEBAR -->
+
+        <div class="layout__sub">
+
+            <!-- HERO -->
+            <section class="hero">
+
+                <div class="hero__left">
+                    <i class="fas fa-angle-left fa-lg"></i>
+                </div>
+
+                <div class="hero__card">
+                    <!-- CARD -->
+                    <ul class="hero__card--items">
+                        <li class="hero__card--item">
+                            <div class="hero__card--item-screen">
+                                <div class="hero__card--item-screen-top">
+                                    <p>LIVE</p>
+                                </div>
+                                <div class="hero__card--item-screen-bottom">
+                                    <div class="hero__card--item-screen-bottom-left">
+                                        <i class="fas fa-play"></i>
+                                        <i class="fas fa-volume-mute"></i>
+                                    </div>
+                                    <div class="hero__card--item-screen-bottom-right">
+                                        <i class="fas fa-cog"></i>
+                                        <i class="far fa-square"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__card--description">
+                                <div class="hero__card--description-top">
+                                    <div class="hero__card--description-top-logo">
+                                        <img src="./assets/twitch-logo.png" alt="avatar">
+                                    </div>
+                                    <div class="hero__card--description-top-title">
+                                        <p>Domingo</p>
+                                        <p>Football Manager</p>
+                                        <span>6,1 k spectateurs</span>
+                                    </div>
+                                </div>
+                                <div class="hero__card--description-middle">
+                                    <p>Français</p>
+                                </div>
+                                <div class="hero__card--description-bottom">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente autpossimus
+                                        deleniti, ducimus reprehenderit labore!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END CARD -->
+                <div class="hero__right">
+                    <i class="fas fa-angle-right fa-lg"></i>
+                </div>
+
+
+            </section>
+            <!-- HERO -->
+
+            <!-- BANNER -->
+            <section class="banner">
+                <!-- CARD -->
+                <div class="banner__card">
+                    <div class="banner__card--item-screen">
+                        <div class="banner__card--item-screen-top">
+                            <p>LIVE</p>
+                        </div>
+                        <div class="banner__card--item-screen-bottom">
+                            <span>6,1 k spectateurs</span>
+                        </div>
+                    </div>
+                    <div class="banner__card--description">
+                        <div class="banner__card--description-top">
+                            <div class="banner__card--description-top-logo">
+                                <img src="./assets/twitch-logo.png" alt="avatar">
+                            </div>
+                            <div class="banner__card--description-top-title">
+                                <p>Nouvelle Saison ! !</p>
+                                <p>Domingo</p>
+                                <p>Football Manager 2021</p>
+                            </div>
+                        </div>
+                        <div class="banner__card--description-middle">
+                            <p>Français</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD -->
+                <!-- CARD -->
+                <div class="banner__card">
+                    <div class="banner__card--item-screen">
+                        <div class="banner__card--item-screen-top">
+                            <p>LIVE</p>
+                        </div>
+                        <div class="banner__card--item-screen-bottom">
+                            <span>6,1 k spectateurs</span>
+                        </div>
+                    </div>
+                    <div class="banner__card--description">
+                        <div class="banner__card--description-top">
+                            <div class="banner__card--description-top-logo">
+                                <img src="./assets/twitch-logo.png" alt="avatar">
+                            </div>
+                            <div class="banner__card--description-top-title">
+                                <p>Nouvelle Saison ! !</p>
+                                <p>Domingo</p>
+                                <p>Football Manager 2021</p>
+                            </div>
+                        </div>
+                        <div class="banner__card--description-middle">
+                            <p>Français</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD -->
+                <!-- CARD -->
+                <div class="banner__card">
+                    <div class="banner__card--item-screen">
+                        <div class="banner__card--item-screen-top">
+                            <p>LIVE</p>
+                        </div>
+                        <div class="banner__card--item-screen-bottom">
+                            <span>6,1 k spectateurs</span>
+                        </div>
+                    </div>
+                    <div class="banner__card--description">
+                        <div class="banner__card--description-top">
+                            <div class="banner__card--description-top-logo">
+                                <img src="./assets/twitch-logo.png" alt="avatar">
+                            </div>
+                            <div class="banner__card--description-top-title">
+                                <p>Nouvelle Saison ! !</p>
+                                <p>Domingo</p>
+                                <p>Football Manager 2021</p>
+                            </div>
+                        </div>
+                        <div class="banner__card--description-middle">
+                            <p>Français</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD -->
+                <!-- CARD -->
+                <div class="banner__card">
+                    <div class="banner__card--item-screen">
+                        <div class="banner__card--item-screen-top">
+                            <p>LIVE</p>
+                        </div>
+                        <div class="banner__card--item-screen-bottom">
+                            <span>6,1 k spectateurs</span>
+                        </div>
+                    </div>
+                    <div class="banner__card--description">
+                        <div class="banner__card--description-top">
+                            <div class="banner__card--description-top-logo">
+                                <img src="./assets/twitch-logo.png" alt="avatar">
+                            </div>
+                            <div class="banner__card--description-top-title">
+                                <p>Nouvelle Saison ! !</p>
+                                <p>Domingo</p>
+                                <p>Football Manager 2021</p>
+                            </div>
+                        </div>
+                        <div class="banner__card--description-middle">
+                            <p>Français</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD -->
+            </section>
+            <!-- BANNER -->
+
+            <!-- MORE -->
+            <section class="more">
+                <div class="more__left"></div>
+                <div class="more__middle">
+                    <span>Afficher plus</span>
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+                <div class="more__left"></div>
+            </section>
+            <!-- MORE -->
+        </div>
+
+    </div>
+
+
+    <!-- Splide -->
+    <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+
+
+</body>
+
+</html>
